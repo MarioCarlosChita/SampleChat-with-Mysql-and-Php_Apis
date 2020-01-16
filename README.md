@@ -4,13 +4,13 @@ A new Flutter application.
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+Esta é uma simples aplicação mobile de Chat  , ainda nao terminada  .
 
-A few resources to get you started if this is your first Flutter project:
+## Como usar
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+1 Instala um servidor local de Banco de dados Mysql na tua maquina  , de preferencia o instalares o Xampp, Mamp.
+2 Importa no banco de dados encontrado na pasta Apis esta Aqui.
+3 Coloca a Apis no servidor de Apache  na pasta Htdocs.
+4 Cria uma Rede local(Lan) passa como parametro no endereco da tua Apis o ip da tua maquina Local. 
+ex:static String url1 = "http://teu endereco IP/apis/getAll.php";
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
